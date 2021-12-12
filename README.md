@@ -20,14 +20,23 @@ Navigate to [command-line](https://support.apple.com/guide/terminal/open-or-quit
 $ brew tap JudeSafo/homebrew-testtap
 $ brew install digital-copyright
 ```
-If succesfull you should be able to test installation by typing `haiphen` and confirming it returns
+If succesfull test installation by typing `haiphen` and confirming it returns
 
 ```
-Examples:
-    # Create a test file [test.txt]
-    echo "This is a Test." > test.txt
-    # Generate a Key and save it to file [encryption.key]
-    bash  -g > encryption.key
+Usage:
+    haiphen  -g
+    haiphen  -e -i <input-file> -o <output-file> -k <key>
+    haiphen  -e -i <input-file> -o <output-file> -p <password>
+    haiphen  -e -i <input-file> -o <output-file>
+    haiphen  -e -i <input-file>
+    haiphen  -d -i <input-file> -o <output-file> -k <key>
+    haiphen  -d -i <input-file> -o <output-file> -p <password>
+    haiphen  -d -i <input-file> -o <output-file>
+    haiphen  -d -i <input-file>
+    haiphen  -h
+    haiphen  -t
+    haiphen  -l
+    haiphen  -b
     ...
 ```
 ### Create a test docker image
