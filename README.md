@@ -6,7 +6,8 @@
 
 ----
 "Create your own traceable digital-copyright"<br><br>
-**Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\]. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users using the tool will have single entry point access point to all of their 3rd party software (easier to manage, make payments, audit, etc.) All copy-rights are secured on an immutable, decentralized blockhain ([filecoin](https://filecoin.io/))   
+\[Under Construction\]
+**Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\]. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users, using the tool will have single entry point access point to all of their 3rd party software (easier to manage, make payments, audit, etc.) All copy-rights are secured on an immutable, decentralized blockhain ([filecoin](https://filecoin.io/))   
    
 
 ### Install <a name="install"></a>
@@ -49,15 +50,15 @@ Navigate to the \<path\> where your current `license` is saved and enter the fol
 ```
 $ haiphen -e -i License -o LICENSE_sha256hash.enc
 ```
-Confirm that your (chrome) browser opens to confirm the encrypted license has been written to the filecoin blockchain at the new [hash-address](/https://ipfs.infura.io/ipfs/) 
+Confirm that your (chrome) browser opens and the transaction has been written to an ethereum node at [hash-address](/https://ipfs.infura.io/ipfs/) 
 
 ### Deploy docker image and monitor <a name="deploy_docker"></a>
-1. deploy your image
+1. deploy your image, run:
 ```
 $ docker run test_docker_image
 ```
 3. ...
-4. (In progress) Open the [chrome extension](https://github.com/JudeSafo/digital-copyright) to `ping` haiphen for metadata on your api (e.g. end-point users, tags, traffic, connected APIs)
+4. (In progress) Open the [chrome extension](https://chrome.google.com/webstore/detail/haiphen-an-api-marketplac/klolgapgdelcegmhiklbpacjdaiknimb) to track your API activity (e.g. traffic, header
 
 <br><br>
 #### Demo (placeholder)
