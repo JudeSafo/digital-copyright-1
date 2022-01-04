@@ -5,9 +5,9 @@
 <img src="https://github.com/JudeSafo/digital-copyright/blob/master/logo/Snip20210901_8.png" width="400">
 
 ----
-"Create your own traceable digital-copyright"<br><br>
-\[Coming soon: simplified installation and execution by leveraging [dockerhub](https://hub.docker.com/r/jks142857/digital-copyright)\]<br>
-**Haiphen**: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\]. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users, using the tool will have single entry point access point to all of their 3rd party software (easier to manage, make payments, audit, etc.) All copy-rights are secured on an immutable, decentralized blockhain ([filecoin](https://filecoin.io/))   
+"Create your own traceable digital-copyright"<br>
+\[**_Coming soon_**: simplified installation and execution by leveraging [dockerhub](https://hub.docker.com/r/jks142857/digital-copyright)\]<br><br>
+Haiphen: a low level binary file to 'stamp' your docker-image with an encrypted, digital copyright \[patent pending\]. A community of developers, leveraging this tool, will be able to selectively and securely share pertinent API data with eachother. End users, using the tool will have single entry point access point to all of their 3rd party software (easier to manage, make payments, audit, etc.) All copy-rights are secured on an immutable, decentralized blockhain ([filecoin](https://filecoin.io/))   
    
 
 ### Install <a name="install"></a>
