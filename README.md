@@ -54,7 +54,7 @@ $ haiphen -e -i License -o LICENSE_sha256hash.enc
 Confirm that your (chrome) browser opens and the transaction has been written to an ethereum node at [hash-address](/https://ipfs.infura.io/ipfs/) 
 
 ### Deploy docker image and monitor <a name="deploy_docker"></a>
-1. deploy your image, run:
+1. deploy your image
 ```
 $ docker run test_docker_image
 ```
